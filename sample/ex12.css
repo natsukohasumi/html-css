@@ -1,0 +1,25 @@
+@charset "UTF-8";
+header{
+    width: 900px;
+    height: 80px;
+    background-color: #faf1b9;
+}
+div.section1{
+    width: 280px;
+    height: 500px;
+    background-color:#92c284;
+
+}
+div.section2{
+    width: 620px;
+    height: 500px;
+    background-color: #81d3d6;
+}
+footer{
+    width: 900px;
+    height: 60px;
+    background-color: #f2b45c
+}
+.main{
+    display: flex;
+}

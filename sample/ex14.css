@@ -1,0 +1,15 @@
+@charset "UTF-8";
+h1{
+    color: #0850B2;
+}
+h2{
+    padding: 0.25em 0.5em;
+    color: #0850B2;
+    background: transparent;
+    border-left: solid 10px #7DB4E6;
+}
+h3{
+    
+    color: #073DCA;
+    background-color: #CBE7FF;
+}

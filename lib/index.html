@@ -17,6 +17,8 @@
     <br>
     <img src="../img/logo.gif">
     <br>
+
+
     <ol>
         <li>山田太郎</li>
             <ul>
@@ -24,5 +26,86 @@
             </ul>
         <li>山田華子</li>
     </ol>
+    <br>
+
+
+    <table border="1">
+        <tr>
+            <th colspan="2">名前</th>
+            <th rowspan="2">性別</th>
+        </tr>
+        <tr>
+            <th>氏名</th>
+            <th>かな</th>
+        </tr>
+        <tr>
+            <td>蓮見</td>
+            <td>はすみ</td>
+            <td>女性</td>
+        </tr>
+        <tr>
+            <td>山田</td>
+            <td>やまだ</td>
+            <td>男性</td>
+        </tr>
+        <br>
+
+
+    <table border="1">
+        <tbody>
+            <td>&lt;</td>
+            <td>&gt;</td>
+            <td>&amp;</td>
+            <td>&quot;</td>
+        </tbody>
+    </table>
+
+    </table>
+    <br>
+
+
+
+    <form action="#" method="post" enctype="multipart/form-data">
+    <label for="nameField">名前：</label>
+    <input id="nameField" type="text" name="name"><br>
+
+    <label>パスワード：
+    <input type="password" name="pass"><br>
+    </label>
+
+    <input type="radio" name="gender" value="male"checked>男
+    <input type="radio" name="gender" value="female">女<br>
+    <input type="checkbox" name="triathlon" value="swim" checked>水泳<br>
+    <input type="checkbox" name="triathlon" value="bike" >自転車<br>
+    <input type="checkbox" name="triathlon" value="run" >走る<br>
+    <input type="file" name="resume"><br>
+    <input type="hidden" name="employeeId" value="12345">
+    <textarea name="remarks" rows="5" cols="50"></textarea><br>
+
+    趣味：
+    <select name = "hobby">
+        <option value="swim" selected>水泳</option>
+        <option value="bike" >自転車</option>
+        <option value="run" >走る</option>
+    </select> <br>
+
+    趣味：
+    <select name = "hobby" multiple>
+        <option value="swim" >水泳</option>
+        <option value="bike" >自転車</option>
+        <option value="run" >走る</option>
+    </select><br>
+
+    <button>送信</button>
+
+    <button type="reset">リセット</button>
+
+    <button type="button">ただのボタン</button>
+
+    
+
+
+    
+    </form>
 </body>
 </html>
